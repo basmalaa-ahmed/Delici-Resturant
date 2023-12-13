@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-color: #0e0d0b;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+nav{
+    padding: 20px 0;
+}
+nav #logo {
+    float: left;
+    margin-top: 20px;
+}
+nav i{
+    float: right;
+    background-color: #e4c290;
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+nav ul{
+    float: right;
+    padding-top: 15px;
+}
+nav a{
+    font-size: 1.2rem;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: #e4c290;
+
+}
+.active{
+    background-color: #e4c290;
+}
+nav a.active:hover{
+    background-color: #e4c290;
+}
+header{
+    height: 100vh;
+    background:url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#caption{
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 60px;
+}
+ small{
+    color: #e4c290;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 700;
+}
+#caption h1{
+    font-weight:400 ;
+    line-height: 30px;
+    color: #fff;
+}
+ p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+h2{
+    color: #fff;
+    padding-top: 7px;
+}
+#caption h1 ,#caption p{
+    padding-top: 7px;
+}
+#caption button{
+    margin-top: 20px;
+    background: transparent;
+    padding: 20px;
+    color: #e4c290;
+    font-weight: 600;
+    transition: all .35s;
+}
+#caption button:hover{
+    background-color: #e4c290;
+    color: #0e0d0b;
+}
+#menu-card{
+    text-align: center;
+    margin-top: 15px;
+}
+#menu-card h4{
+    color: #fff;
+    font-size: 18px;
+    padding-top: 7px;
+}
+#menu-card a{
+    color: #e4c290;
+    display: inline-block;
+    padding-top: 7px;
+}
+#about{
+    margin-top: 50px;
+}
+#left{
+    text-align: center;
+}
+#left small{
+    color: #e4c290;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 700;
+}
+#left h2{
+    color: #fff;
+    padding-top: 7px;
+}
+#left p ,#left h5{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+#left h5{
+    color: #e4c290;
+}
+#left a {
+    color: #e4c290;
+    display:block;
+    padding-top: 7px;
+}
+#left button{
+    margin-top: 20px;
+    background: transparent;
+    padding: 20px;
+    color: #e4c290;
+    transition: all .35s;
+}
+#left button:hover{
+    background-color: #e4c290;
+    color: #0e0d0b;
+}
+#right img{
+    width: 100%;
+    margin-top: 20px;
+}
+#chef{
+    margin-top: 50px;
+    background-color: #171819;
+}
+#chefs-card{
+    text-align: center;
+    padding-top: 20px;
+}
+h3{
+    color: #fff;
+}
+#chefs-card img{
+    width: 100%;
+}
+#contact{
+    background-color: #0e0d0c;
+    text-align: center;
+}
+#contact p{
+    color: #9d9d9d;
+}
+input ,textarea{
+    background: #1a1b1c;
+    color: #9d9d9d;
+    font-size: 16px;
+    border: #9d9d9d 1px solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    height: 56px;
+    margin-bottom: 20px;
+    width: 100%;
+    transition: .35s;
+}
+input:hover,textarea:hover{
+    border-color: #e4c290;
+}
+
+form button{
+    color: #0e0d0c;
+    border: 2px solid #e4c290;
+    background: #e4c290;
+    padding: 15px;
+    font-weight: 600;
+    transition: .35s;
+}
+form button:hover{
+    background-color: #0e0d0b;
+    color: #fff;
+}
+#contact img{
+    width: 100%;
+    margin-top: 30px;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    color: #9d9d9d;
+
+}
+@media screen and (min-width:1200px) {
+    #capton{
+        margin-top: 150px;
+        padding: 30px 0;
+    }
+    #caption h1 ,#caption p{
+        padding-top: 20px;
+    }
+}
+@media screen and (min-width:992px) {
+    ul li{
+        display: inline-block;
+    }
+    nav i{
+        display: none !important;
+    }
+    #caption{
+        margin-top: 100px;
+    }
+    #caption h1 ,#caption p{
+        padding-top: 7px;
+    }
+    #menu-card{
+        float: left;
+        width: 33.33%;
+        padding: 0 10px;
+    }
+    #menu-card img{
+        width: 100%;
+    }
+    #left{
+        float: left;
+        width: 45%;
+        padding-right: 15px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    #left p{
+        font-size: 20px;
+    }
+    #right{
+        float: right;
+        width: 55%;
+    }
+    #chefs-card{
+        width: 33.33%;
+        float: left;
+        padding: 0 10px;
+
+    }
+    #contact{
+        padding: 30px 0;
+    }
+    form{
+        width: 50%;
+        float: left;
+        padding:20px;
+        margin: 10px -15px;
+    }
+    .image{
+        width: 50%;
+        float: right;
+    }
+    
+   
+  
+}
+@media screen and (min-width:768px)and (max-width:992px){
+    nav ul{
+        display: none;
+    }
+   
+   
+}
+@media  screen and (min-width:500px)and (max-width:768px){
+    nav ul{
+        display: none;
+    }
+   
+}
+@media screen and (min-width:360px)and (max-width:500px) {
+    nav ul{
+        display: none;
+    }
+   
+}
